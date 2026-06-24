@@ -1,5 +1,5 @@
-from funcoes import email_valido
-from funcoes import dividir
+from .funcoes import email_valido
+from .funcoes import dividir
 
 def test_email_valido():
     assert email_valido("ex@dominio.com") is True
