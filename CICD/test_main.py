@@ -1,4 +1,3 @@
-import pytest
 from main import soma
 
 def test_soma():
